@@ -4,6 +4,20 @@ Dominio confermato: `devsoftiq.cloud`.
 
 Destinazione GitHub: account `CELOTTOA`, repo `devsoftiq-landing`.
 
+## Stato verificato
+
+Repo pubblica creata e file caricati. GitHub Pages attivato da `main` e `/(root)`, con deployment completato e dominio personalizzato `devsoftiq.cloud` già riconosciuto. HTTPS resta in attesa del corretto puntamento DNS.
+
+DNS letti il 13 ottobre 2026:
+
+- A del dominio principale: `62.149.128.40`, da sostituire con i quattro A di GitHub.
+- CNAME di `www`: `devsoftiq.cloud`, da modificare in `celottoa.github.io`.
+- MX: `mx.devsoftiq.cloud`, priorità 10, da conservare.
+- SPF: `v=spf1 include:_spf.aruba.it ~all`, da conservare.
+- Name server Aruba: `dns.technorail.com`, `dns2.technorail.com`, `dns3.arubadns.net`, `dns4.arubadns.cz`, da conservare.
+
+I DNS Aruba non sono stati modificati.
+
 ## GitHub Pages
 
 Nella repo: **Settings → Pages → Build and deployment → Deploy from a branch → main → /(root) → Save**.
