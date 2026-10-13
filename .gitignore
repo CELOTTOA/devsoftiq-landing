@@ -1,0 +1,8 @@
+_archive/
+_shots/
+_review/
+_publish/
+Logo_devsoftiq.cloud.png
+.DS_Store
+Thumbs.db
+*.log
