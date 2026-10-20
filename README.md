@@ -39,3 +39,15 @@ Repo: https://github.com/CELOTTOA/devsoftiq-landing
 Il sito viene pubblicato con GitHub Pages dal branch `main`, cartella radice. Il dominio previsto è `https://devsoftiq.cloud`; i puntamenti DNS e il certificato HTTPS sono gestiti secondo `CONFIGURAZIONE-DNS.md`.
 
 Le cartelle `_archive`, `_shots` e `_review` restano locali e non sono incluse nel repository pubblico.
+
+## SEO
+
+La home usa titolo e descrizione dedicati ai software per professionisti e imprese, URL canonico HTTPS, metadati Open Graph e Twitter con anteprima locale 1200×630, favicon quadrate e dati strutturati JSON-LD `Organization`, `WebSite`, `CollectionPage` e `ItemList`. Il catalogo strutturato riprende i nomi, le descrizioni e gli anchor delle 13 schede visibili; va aggiornato insieme alle schede quando cambiano i prodotti. Non contiene recensioni o offerte commerciali aggiunte per ottenere risultati avanzati.
+
+`sitemap.xml` contiene i cinque URL canonici ed è indicata in `robots.txt`. Aggiornare `lastmod` solo per le pagine effettivamente modificate. Le pagine legali rimandano alla home con `/`, evitando collegamenti alla variante `/index.html`.
+
+`assets/og-devsoftiq.png` è l'anteprima di condivisione. `assets/logos/indexos-azienda.webp` è la variante ottimizzata per i loghi di 38–40 pixel; il PNG originale resta disponibile. Il meta tag di verifica Google è conservato nella home.
+
+Per il monitoraggio, inviare `https://devsoftiq.cloud/sitemap.xml` nella proprietà verificata di Google Search Console e usare Controllo URL sulla home. La configurazione del codice non equivale all'avvenuta indicizzazione.
+
+Riferimenti: [nome del sito](https://developers.google.com/search/docs/appearance/site-names), [dati dell'organizzazione](https://developers.google.com/search/docs/appearance/structured-data/organization), [sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap).
