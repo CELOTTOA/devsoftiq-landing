@@ -46,6 +46,8 @@ La home usa titolo e descrizione dedicati ai software per professionisti e impre
 
 `sitemap.xml` contiene i cinque URL canonici ed è indicata in `robots.txt`. Aggiornare `lastmod` solo per le pagine effettivamente modificate. Le pagine legali rimandano alla home con `/`, evitando collegamenti alla variante `/index.html`.
 
+GitHub Pages ha **Enforce HTTPS** attivo; il dominio canonico è `https://devsoftiq.cloud/`.
+
 `assets/og-devsoftiq.png` è l'anteprima di condivisione. `assets/logos/indexos-azienda.webp` è la variante ottimizzata per i loghi di 38–40 pixel; il PNG originale resta disponibile. Il meta tag di verifica Google è conservato nella home.
 
 Per il monitoraggio, inviare `https://devsoftiq.cloud/sitemap.xml` nella proprietà verificata di Google Search Console e usare Controllo URL sulla home. La configurazione del codice non equivale all'avvenuta indicizzazione.

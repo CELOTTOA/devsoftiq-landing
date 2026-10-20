@@ -6,9 +6,9 @@ Destinazione GitHub: account `CELOTTOA`, repo `devsoftiq-landing`.
 
 ## Stato verificato
 
-Repo pubblica creata e file caricati. GitHub Pages attivato da `main` e `/(root)`, con deployment completato e dominio personalizzato `devsoftiq.cloud` già riconosciuto. HTTPS resta in attesa del corretto puntamento DNS.
+Verifica del 20 ottobre 2026: GitHub Pages pubblica da `main` e `/(root)` sul dominio `devsoftiq.cloud`. Il certificato HTTPS è approvato e copre `devsoftiq.cloud` e `www.devsoftiq.cloud`. L'impostazione **Enforce HTTPS** è stata attivata tramite API GitHub. Il redirect da `https://www.devsoftiq.cloud/` raggiunge il dominio principale.
 
-DNS letti il 13 ottobre 2026:
+Rilevazione DNS storica del 13 ottobre 2026, precedente al collegamento attuale del dominio:
 
 - A del dominio principale: `62.149.128.40`, da sostituire con i quattro A di GitHub.
 - CNAME di `www`: `devsoftiq.cloud`, da modificare in `celottoa.github.io`.
@@ -24,7 +24,7 @@ Nella repo: **Settings → Pages → Build and deployment → Deploy from a bran
 
 Dominio personalizzato: `devsoftiq.cloud`. Il file `CNAME` è già presente alla radice.
 
-Attivare **Enforce HTTPS** quando GitHub avrà verificato il DNS e reso disponibile il certificato.
+**Enforce HTTPS** è attivo dal 20 ottobre 2026. In caso di modifica futura del dominio, ricontrollare certificato e reindirizzamenti.
 
 La pagina progetto, prima del collegamento del dominio, è `https://celottoa.github.io/devsoftiq-landing/`. Dopo aver configurato il dominio personalizzato, GitHub può reindirizzarla al dominio.
 
