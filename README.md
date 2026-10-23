@@ -32,6 +32,8 @@ I prezzi, gli stati dei prodotti e i numeri tecnici provengono dalla landing ori
 
 Il tema scuro rimane quello iniziale; la scelta manuale viene ricordata nel browser. Il sito funziona anche senza JavaScript: tutte le schede e i dettagli sono disponibili e i controlli che richiedono script vengono nascosti.
 
+La sezione `#partner`, raggiungibile da navigazione, hero e footer, presenta i percorsi da valutare con agenzie, integratori e distributori: distribuzione commerciale, integrazioni e progetti pilota. Le FAQ distinguono i prezzi delle licenze finali dagli accordi commerciali e descrivono un eventuale approfondimento dei sorgenti in forma riservata. Le richieste di collaborazione e demo aprono il client email con oggetto e traccia del messaggio; il sito non invia messaggi né raccoglie dati tramite form.
+
 La tipografia usa i font di sistema, così la pagina si apre correttamente anche offline. Nessun font, script o foglio di stile viene caricato da CDN.
 
 Repo: https://github.com/CELOTTOA/devsoftiq-landing
