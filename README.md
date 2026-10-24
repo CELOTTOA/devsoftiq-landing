@@ -46,7 +46,7 @@ Le cartelle `_archive`, `_shots` e `_review` restano locali e non sono incluse n
 
 La home usa titolo e descrizione dedicati ai software per professionisti e imprese, URL canonico HTTPS, metadati Open Graph e Twitter con anteprima locale 1200×630, favicon quadrate e dati strutturati JSON-LD `Organization`, `WebSite`, `CollectionPage` e `ItemList`. Il catalogo strutturato riprende i nomi, le descrizioni e gli anchor delle 13 schede visibili; va aggiornato insieme alle schede quando cambiano i prodotti. Non contiene recensioni o offerte commerciali aggiunte per ottenere risultati avanzati.
 
-`sitemap.xml` contiene i cinque URL canonici ed è indicata in `robots.txt`. Aggiornare `lastmod` solo per le pagine effettivamente modificate. Le pagine legali rimandano alla home con `/`, evitando collegamenti alla variante `/index.html`.
+`sitemap.xml` contiene gli URL canonici della vetrina e della sezione Archteathos ed è indicata in `robots.txt`. Aggiornare `lastmod` solo per le pagine effettivamente modificate. Le pagine legali rimandano alla home con `/`, evitando collegamenti alla variante `/index.html`.
 
 GitHub Pages ha **Enforce HTTPS** attivo; il dominio canonico è `https://devsoftiq.cloud/`.
 
@@ -55,3 +55,9 @@ GitHub Pages ha **Enforce HTTPS** attivo; il dominio canonico è `https://devsof
 Per il monitoraggio, inviare `https://devsoftiq.cloud/sitemap.xml` nella proprietà verificata di Google Search Console e usare Controllo URL sulla home. La configurazione del codice non equivale all'avvenuta indicizzazione.
 
 Riferimenti: [nome del sito](https://developers.google.com/search/docs/appearance/site-names), [dati dell'organizzazione](https://developers.google.com/search/docs/appearance/structured-data/organization), [sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap).
+
+## Archteathos
+
+La landing del prodotto è pubblicata su `https://devsoftiq.cloud/archteathos/`, con Privacy, Cookie e Termini d’uso dedicati. I riferimenti sono devsoftiq.cloud, P. IVA IT01374730933, info@devsoftiq.cloud. La scheda del catalogo collega questa pagina e presenta le funzioni dell’app senza riferimenti a tournée o produzioni specifiche.
+
+I quattro HTML e i soli asset utilizzati sono copiati dalla cartella `landing/` del progetto `C:/Archteathos`. Non sono inclusi codice dell’app, rilievi, chiavi API o script di preparazione. La sezione non imposta cookie o preferenze persistenti; la privacy descrive GitHub Pages e i servizi di dominio e posta già indicati nell’informativa della vetrina.
