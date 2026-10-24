@@ -60,4 +60,4 @@ Riferimenti: [nome del sito](https://developers.google.com/search/docs/appearanc
 
 La landing del prodotto è autonoma su `https://archteathos.it/`, pubblicata dal repository dedicato `CELOTTOA/archteathos-landing`. Contatti e pagine legali usano `info@archteathos.it`, con la stessa P. IVA IT01374730933. La scheda del catalogo, il footer e i dati strutturati collegano il dominio dedicato.
 
-La copia storica sotto `/archteathos/` resta disponibile durante la transizione DNS e HTTPS; non è una dipendenza della nuova Pages. I relativi reindirizzamenti verranno attivati quando il dominio dedicato sarà raggiungibile in HTTPS.
+I vecchi indirizzi sotto `/archteathos/` reindirizzano alle corrispondenti pagine di `archteathos.it`. Gli asset storici rimasti in questa cartella non sono utilizzati dalla Pages indipendente.
