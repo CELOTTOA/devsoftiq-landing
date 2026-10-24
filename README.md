@@ -58,6 +58,6 @@ Riferimenti: [nome del sito](https://developers.google.com/search/docs/appearanc
 
 ## Archteathos
 
-La landing del prodotto è pubblicata su `https://devsoftiq.cloud/archteathos/`, con Privacy, Cookie e Termini d’uso dedicati. I riferimenti sono devsoftiq.cloud, P. IVA IT01374730933, info@devsoftiq.cloud. La scheda del catalogo collega questa pagina e presenta le funzioni dell’app senza riferimenti a tournée o produzioni specifiche.
+La landing del prodotto è autonoma su `https://archteathos.it/`, pubblicata dal repository dedicato `CELOTTOA/archteathos-landing`. Contatti e pagine legali usano `info@archteathos.it`, con la stessa P. IVA IT01374730933. La scheda del catalogo, il footer e i dati strutturati collegano il dominio dedicato.
 
-I quattro HTML e i soli asset utilizzati sono copiati dalla cartella `landing/` del progetto `C:/Archteathos`. Non sono inclusi codice dell’app, rilievi, chiavi API o script di preparazione. La sezione non imposta cookie o preferenze persistenti; la privacy descrive GitHub Pages e i servizi di dominio e posta già indicati nell’informativa della vetrina.
+La copia storica sotto `/archteathos/` resta disponibile durante la transizione DNS e HTTPS; non è una dipendenza della nuova Pages. I relativi reindirizzamenti verranno attivati quando il dominio dedicato sarà raggiungibile in HTTPS.
