@@ -26,7 +26,7 @@ Poi apri `http://localhost:8080`.
 
 ## Contenuti
 
-Il catalogo comprende 13 schede. La sezione Studi presenta LaborOS - PortalWeb, LaborOS Control Hub e GenomeOS. IndexOS Azienda è presentato separatamente da IndexOS, con il logo fornito. Ogni scheda distingue la descrizione breve dai dettagli tecnici. I contenuti tecnici precedenti restano consultabili nelle sezioni espandibili.
+Il catalogo comprende 14 schede. La sezione Studi presenta LaborOS - PortalWeb, LaborOS Control Hub, GenomeOS e FiscalSearch in quattro riquadri di pari rilievo, su due colonne desktop e una su mobile. Ogni riquadro distingue ambito, disponibilità, descrizione e dettagli; il bundle LaborOS è presentato separatamente e comprende solo PortalWeb e Control Hub. FiscalSearch usa il logo originale ottimizzato in WebP e un contatto email, senza anticipare sito pubblico, prezzi o disponibilità commerciale. IndexOS Azienda è presentato separatamente da IndexOS, con il logo fornito. Ogni scheda distingue la descrizione breve dai dettagli tecnici. I contenuti tecnici precedenti restano consultabili nelle sezioni espandibili.
 
 I prezzi, gli stati dei prodotti e i numeri tecnici provengono dalla landing originale; non sono stati verificati sui servizi esterni. Il testo sul controllo dei dati distingue i prodotti locali dai flussi connessi.
 
@@ -44,9 +44,9 @@ Le cartelle `_archive`, `_shots` e `_review` restano locali e non sono incluse n
 
 ## SEO
 
-La home usa titolo e descrizione dedicati ai software per professionisti e imprese, URL canonico HTTPS, metadati Open Graph e Twitter con anteprima locale 1200×630, favicon quadrate e dati strutturati JSON-LD `Organization`, `WebSite`, `CollectionPage` e `ItemList`. Il catalogo strutturato riprende i nomi, le descrizioni e gli anchor delle 13 schede visibili; va aggiornato insieme alle schede quando cambiano i prodotti. Non contiene recensioni o offerte commerciali aggiunte per ottenere risultati avanzati.
+La home usa titolo e descrizione dedicati ai software per professionisti e imprese, URL canonico HTTPS, metadati Open Graph e Twitter con anteprima locale 1200×630, favicon quadrate e dati strutturati JSON-LD `Organization`, `WebSite`, `CollectionPage` e `ItemList`. Il catalogo strutturato riprende i nomi, le descrizioni e gli anchor delle 14 schede visibili; va aggiornato insieme alle schede quando cambiano i prodotti. Non contiene recensioni o offerte commerciali aggiunte per ottenere risultati avanzati.
 
-`sitemap.xml` contiene gli URL canonici della vetrina e della sezione Archteathos ed è indicata in `robots.txt`. Aggiornare `lastmod` solo per le pagine effettivamente modificate. Le pagine legali rimandano alla home con `/`, evitando collegamenti alla variante `/index.html`.
+`sitemap.xml` contiene gli URL canonici della vetrina ed è indicata in `robots.txt`. Aggiornare `lastmod` solo per le pagine effettivamente modificate. Le pagine legali rimandano alla home con `/`, evitando collegamenti alla variante `/index.html`.
 
 GitHub Pages ha **Enforce HTTPS** attivo; il dominio canonico è `https://devsoftiq.cloud/`.
 

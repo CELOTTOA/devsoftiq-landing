@@ -181,9 +181,8 @@ footer{border-top:1px solid var(--line);padding:60px 0 30px}
 .chip{font-size:12px}.p-chip{font-size:12px}.product-details summary{font-size:13px}
 :root:not(.js) .catalog-tools,:root:not(.js) .theme-toggle,:root:not(.js) .burger{display:none}
 .btn,.tile{transition:transform .25s var(--ease)}.sector-button{transition:none}
-/* Thirteen catalogue entries: three complete icon rows and one final tile. */
-.constellation .tile:nth-last-child(2){grid-column:auto;flex-direction:column;gap:8px;min-height:84px}
-.constellation .tile:last-child{grid-column:1/-1}
+/* Fourteen catalogue entries: three complete rows and two balanced final links. */
+.constellation .tile:nth-last-child(-n+2){grid-column:span 2;flex-direction:row;gap:12px;min-height:72px}
 .anchor-alias{position:absolute;scroll-margin-top:190px}
 .legal-links{display:flex;flex-wrap:wrap;gap:12px 22px;padding-top:24px;font-size:12px;color:var(--muted)}
 .legal-links a:hover{color:var(--accent)}
@@ -213,3 +212,33 @@ footer{border-top:1px solid var(--line);padding:60px 0 30px}
 .legal-prose code{font-size:12px;overflow-wrap:anywhere}
 .preference-status{font-size:13px;margin-top:12px;min-height:24px}
 @media(max-width:767px){.legal-main{padding:120px 0 50px}.legal-header{margin-bottom:30px}.legal-header p{font-size:15px}.legal-layout{grid-template-columns:1fr;gap:28px}.legal-toc{position:static;flex-direction:row;flex-wrap:wrap;gap:10px 16px;padding-bottom:20px;border-bottom:1px solid var(--line)}.legal-prose section{scroll-margin-top:105px}.legal-prose h2{font-size:21px}.legal-prose address,.legal-callout{padding:18px}.legal-prose th,.legal-prose td{padding:10px 8px;font-size:12px}}
+
+/* Study products share one hierarchy, with all four roles visible at equal weight. */
+.studios .family-head{grid-template-columns:minmax(0,1fr) minmax(0,3fr);gap:24px}
+.studios .family-head h3{font-size:clamp(27px,3vw,36px);max-width:24ch}
+.studios .family-head p{max-width:76ch}
+.studios-grid{align-items:stretch;gap:20px}
+.studio-card{background:var(--surface);border:0;border-radius:14px}
+.studio-card:hover{background:var(--surface-2)}
+.studio-card .core{height:100%;padding:30px;gap:24px}
+.studio-meta{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:6px 18px;color:var(--muted);font-size:13px}
+.studio-meta>span:first-child{color:var(--accent);font-weight:600}
+.studio-brand{display:flex;align-items:center;gap:18px}
+.studio-brand>img{width:56px;height:56px;object-fit:contain;flex:none;border-radius:8px}
+.studio-brand>div{min-width:0}
+.studio-card .card-name{font-size:clamp(23px,2.25vw,29px)}
+.studio-card .card-tag{margin-top:5px;color:var(--muted)}
+.studio-card .card-desc{color:var(--ink);line-height:1.7}
+.studio-card .card-actions{margin-top:auto}
+.studio-card .card-link{min-height:44px;color:var(--accent);font-size:14px;justify-content:space-between;width:100%}
+.studio-card .card-link:hover{text-decoration:underline;text-underline-offset:5px}
+.studio-card .product-details{padding-top:12px}
+.studio-card .product-details summary{min-height:36px;color:var(--muted)}
+.studio-card .product-details .card-desc{font-size:14px;color:var(--muted)}
+.studio-bundle{display:flex;justify-content:space-between;align-items:center;gap:20px 36px;padding:24px 30px;margin-top:20px;background:var(--accent-soft);border-radius:14px}
+.studio-bundle strong{font-size:17px;font-weight:600}
+.studio-bundle p{font-size:14px;color:var(--muted);margin-top:3px}
+.studio-bundle .card-link{color:var(--accent);min-height:44px;flex:none}
+@media(max-width:1024px){.studios .family-head{grid-template-columns:1fr;gap:8px}.studio-card .core{padding:24px;gap:20px}.studio-brand{gap:14px}.studio-brand>img{width:48px;height:48px}.studio-card .card-name{font-size:25px}}
+@media(max-width:767px){.studios-grid{gap:16px}.studio-card .core{padding:24px}.studio-bundle{align-items:flex-start;flex-direction:column;gap:12px;padding:24px}.studio-meta{font-size:12px}.studio-card .card-name{font-size:25px}}
+@media(forced-colors:active){.studio-card,.studio-bundle{border:1px solid CanvasText}}
