@@ -128,6 +128,31 @@ h1,h2,h3,.card-name{font-family:var(--font-d);font-weight:600;letter-spacing:-.0
 .app .ac{font-size:11px;color:var(--accent);margin-top:auto}
 .family-note{font-size:13px;color:var(--muted);margin-top:18px;display:flex;gap:12px;align-items:center}
 .family-note .dot{display:none}
+
+/* TechnIQ uses its own brand accents inside the catalogue system. */
+.techniq-brand{
+  --accent:#e8a87c;
+  --accent-soft:#182e30;
+  --techniq-surface:#132326;
+  --techniq-border:#32585b;
+  --techniq-link:#d6efed;
+  --techniq-paper:#f6f8f7;
+}
+:root[data-theme="light"] .techniq-brand{
+  --accent:#9a4e20;
+  --accent-soft:#e3edeb;
+  --techniq-surface:var(--techniq-paper);
+  --techniq-border:#b4cac7;
+  --techniq-link:#035054;
+}
+.shell.techniq-brand{
+  --line:var(--techniq-border);
+  background:var(--techniq-surface);
+}
+.shell.techniq-brand:hover{border-color:var(--accent)}
+.techniq-brand .mono,.tile.techniq-brand img{background:var(--techniq-paper)}
+.tile.techniq-brand img{border-radius:8px}
+.techniq-brand .card-link,.techniq-brand .product-details summary{color:var(--techniq-link);min-height:44px}
 .metodo{padding:58px 0 100px}
 .method-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 64px;border-top:1px solid var(--line);padding-top:40px}
 .mrow{display:grid;grid-template-columns:42px minmax(0,1fr);gap:10px 18px;align-content:start}
