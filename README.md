@@ -30,7 +30,7 @@ Il catalogo comprende 14 schede. La sezione Studi presenta LaborOS - PortalWeb, 
 
 I prezzi, gli stati dei prodotti e i numeri tecnici provengono dalla landing originale; non sono stati verificati sui servizi esterni. Il testo sul controllo dei dati distingue i prodotti locali dai flussi connessi.
 
-Il tema scuro rimane quello iniziale; la scelta manuale viene ricordata nel browser. Il sito funziona anche senza JavaScript: tutte le schede e i dettagli sono disponibili e i controlli che richiedono script vengono nascosti.
+Il tema chiaro è quello iniziale; la scelta manuale viene ricordata nel browser. I caratteri Fraunces e DM Sans sono serviti da assets/fonts con licenza OFL. Il sito funziona anche senza JavaScript: tutte le schede e i dettagli sono disponibili e i controlli che richiedono script vengono nascosti.
 
 La sezione `#partner`, raggiungibile da navigazione, hero e footer, presenta i percorsi da valutare con agenzie, integratori e distributori: distribuzione commerciale, integrazioni e progetti pilota. Le FAQ distinguono i prezzi delle licenze finali dagli accordi commerciali e descrivono un eventuale approfondimento dei sorgenti in forma riservata. Le richieste di collaborazione e demo aprono il client email con oggetto e traccia del messaggio; il sito non invia messaggi né raccoglie dati tramite form.
 

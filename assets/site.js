@@ -4,8 +4,8 @@
   const root = document.documentElement;
   root.classList.add('js');
   const updateThemeButton = () => {
-    const dark = root.dataset.theme !== 'light';
-    document.querySelector('meta[name="theme-color"]').content = dark ? '#0a0b10' : '#f5f6fa';
+    const dark = root.dataset.theme === 'dark';
+    document.querySelector('meta[name="theme-color"]').content = getComputedStyle(root).getPropertyValue('--bg').trim();
     themeButton.textContent = dark ? 'Tema chiaro' : 'Tema scuro';
     themeButton.setAttribute('aria-label', dark ? 'Attiva il tema chiaro' : 'Attiva il tema scuro');
   };
@@ -17,9 +17,9 @@
   });
   document.querySelector('[data-reset-preference]')?.addEventListener('click', () => {
     try { localStorage.removeItem('devsoftiq-theme'); } catch {}
-    root.dataset.theme = 'dark';
+    root.dataset.theme = 'light';
     updateThemeButton();
-    document.querySelector('.preference-status').textContent = 'Preferenza rimossa. Il sito usa il tema scuro iniziale.';
+    document.querySelector('.preference-status').textContent = 'Preferenza rimossa. Il sito usa il tema chiaro iniziale.';
   });
 
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
